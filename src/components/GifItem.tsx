@@ -8,4 +8,4 @@ export const GifItem = ({ title, url } : Gif) => {
           <p>{ title }</p>
       </div>
     )
-  }
+}

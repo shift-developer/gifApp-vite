@@ -17,7 +17,7 @@ export const AddCategory = ({ onNewCategory } : { onNewCategory: (value: string)
     }
 
     return (
-        <form onSubmit={ onSubmit }>
+        <form onSubmit={ onSubmit } role='form'>
             <input 
                 type="text"
                 placeholder="Find gifs"
